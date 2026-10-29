@@ -42,6 +42,12 @@ h1
     justify-content: center;
 }
 
+.meio
+{
+    display: flex;
+    align-items: center;
+}
+
 .inicio
 {
     display: flex;
@@ -84,6 +90,8 @@ h1
 {
     display: flex;
     justify-content: space-between;
+    color: white;
+    background-color: #960000;
 }
 
 .linha p
@@ -97,4 +105,29 @@ h1
     width: 100px;
     height: 50px;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.exercicio7
+{
+    height: 100vh;
+}
+
+.menu
+{
+    display: flex;
+    height: 50px;
+
+    background-color: goldenrod;
+    color: white;
+    font-size: 25px;
+
+    justify-content: space-around;
+}
+
+.opcoes
+{
+    display: flex;
 }
